@@ -13,10 +13,18 @@ const Wrapper = styled.div`
   background-image: linear-gradient(
     120deg,
     rgba(40, 116, 183, 1),
-    rgba(40, 116, 183, 0.8),
-    transparent,
-    transparent
+    rgba(40, 116, 183, 1)
   );
+
+  @media (min-width: 576px) {
+    background-image: linear-gradient(
+      120deg,
+      rgba(40, 116, 183, 1),
+      rgba(40, 116, 183, 0.8),
+      transparent,
+      transparent
+    );
+  }
 `
 const Caption = styled.h4`
   font-size: 2rem;

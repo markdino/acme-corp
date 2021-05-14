@@ -1,6 +1,7 @@
 import Layout from './components/Layout'
 import Hero from './components/Hero'
 import Insights from './components/Insights'
+import ContactUs from './components/ContactUs'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Layout>
         <Hero />
         <Insights />
+        <ContactUs />
       </Layout>
     </div>
   )
