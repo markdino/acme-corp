@@ -17,8 +17,8 @@ const MainNavbar = styled.nav`
 `
 
 const BrandLogo = styled.img`
-  width: 80px;
-  max-height: 80px;
+  width: 90px;
+  max-height: 90px;
   padding: 2px;
   background-color: #fff;
   margin-bottom: -18px;
@@ -29,22 +29,27 @@ const BrandNameWrapper = styled.section`
 `
 const BrandName1 = styled.h3`
   font-weight: bold;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   color: #009bfa;
   margin: 0px;
 `
 const BrandName2 = styled.h3`
-  font-size: 1.8rem;
+  font-size: 2.1rem;
   color: #193989;
   margin: 0px;
   font-weight: bold;
 `
 
 const NavItem = styled.li.attrs({
-  className: 'nav-item',
+  className: 'nav-item px-lg-3 text-lg-start text-center mb-2',
 })`
   padding: 0px 30px;
   font-size: 0.8rem;
+  background-color: #f8f9fa;
+
+  @media (min-width: 992px) {
+    background-color: #fff;
+  }
 `
 const NavLink = styled.a.attrs({
   className: 'nav-link',
@@ -61,7 +66,7 @@ const Navbar = () => {
   const toggle = () => setIsOpen(!isOpen)
 
   return (
-    <MainNavbar as={MainNav} color='light' light expand='md'>
+    <MainNavbar as={MainNav} color='light' light expand='lg'>
       <Container>
         <NavbarBrand href='/' className='d-flex align-items-center'>
           <BrandLogo src={logo} alt='logo' />
