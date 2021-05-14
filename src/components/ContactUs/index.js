@@ -1,6 +1,6 @@
 import { Container } from 'reactstrap'
 import styled from 'styled-components'
-import Button from '../common/Button'
+import { Button } from '../common'
 
 import bg from '../../assets/images/bgContact.jpg'
 
