@@ -10,11 +10,13 @@ const Main = styled.section`
   background-position: center center;
   text-align: center;
   color: #fff;
+  overflow-x: hidden;
 `
 const Wrapper = styled.div`
-  padding: 60px 0px;
+  padding: 60px 0px 70px;
+  margin: 0px -10px;
   background-color: rgba(20, 80, 210, 0.65);
-  box-shadow: inset -5px 0px 20px #000;
+  box-shadow: inset 0 0px 20px #000;
 `
 const Title = styled.h3`
   font-weight: bold;

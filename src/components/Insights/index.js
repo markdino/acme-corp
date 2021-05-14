@@ -1,7 +1,6 @@
 import { Container, Row } from 'reactstrap'
 import styled from 'styled-components'
 import InsightCard from './InsightCard'
-// import Carousel from '../common/Carousel'
 import { CustomCarousel, SectionTitle, SmallText } from '../common'
 import img1 from '../../assets/images/img1.jpg'
 import img2 from '../../assets/images/img2.jpg'
