@@ -6,7 +6,7 @@ import bg from '../../assets/images/bgHero.jpg'
 const Banner = styled.section`
   background-image: url('${bg}');
   background-size: cover;
-  background-position: left center;
+  background-position: right center;
 `
 const Wrapper = styled.div`
   padding: 70px 10px 100px;
