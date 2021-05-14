@@ -1,6 +1,6 @@
 import Carousel from 'react-multi-carousel'
 
-const InsightCarousel = ({ children }) => {
+export const CustomCarousel = ({ children }) => {
   const responsive = {
     desktop: {
       breakpoint: { max: 4000, min: 992 },
@@ -28,5 +28,3 @@ const InsightCarousel = ({ children }) => {
     </Carousel>
   )
 }
-
-export default InsightCarousel

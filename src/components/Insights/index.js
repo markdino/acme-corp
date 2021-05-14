@@ -1,7 +1,8 @@
 import { Container, Row } from 'reactstrap'
 import styled from 'styled-components'
 import InsightCard from './InsightCard'
-import InsightCarousel from './InsightCarousel'
+// import Carousel from '../common/Carousel'
+import { CustomCarousel, SectionTitle, SmallText } from '../common'
 import img1 from '../../assets/images/img1.jpg'
 import img2 from '../../assets/images/img2.jpg'
 import img3 from '../../assets/images/img3.jpg'
@@ -10,23 +11,15 @@ const Main = styled.section`
   background-color: #ebebeb;
   padding: 30px 0px;
 `
-const Title = styled.h2`
-  font-weight: 200;
-  margin: 0px;
-`
-const Small = styled.p`
-  font-weight: 200;
-  font-size: 0.8rem;
-`
 
 const Insights = () => {
   return (
     <Main>
       <Container>
-        <Title>ACME Insights</Title>
-        <Small>How are factors being used around the world?</Small>
+        <SectionTitle>ACME Insights</SectionTitle>
+        <SmallText>How are factors being used around the world?</SmallText>
         <Row>
-          <InsightCarousel>
+          <CustomCarousel>
             <InsightCard
               title='Global Factor Investing Study'
               img={img1}
@@ -38,7 +31,7 @@ const Insights = () => {
               img={img3}
               color='#009bfa'
             />
-          </InsightCarousel>
+          </CustomCarousel>
         </Row>
       </Container>
     </Main>
