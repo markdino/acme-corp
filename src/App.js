@@ -2,6 +2,7 @@ import Layout from './components/Layout'
 import Hero from './components/Hero'
 import Insights from './components/Insights'
 import ContactUs from './components/ContactUs'
+import UpcomingEvents from './components/UpcomingEvents'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Hero />
         <Insights />
         <ContactUs />
+        <UpcomingEvents />
       </Layout>
     </div>
   )
