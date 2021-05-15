@@ -23,7 +23,9 @@ const BrandLogo = styled.img`
   background-color: #fff;
   margin-bottom: -18px;
 `
-const BrandNameWrapper = styled.section`
+const BrandNameWrapper = styled.section.attrs({
+  className: 'd-md-block d-none',
+})`
   padding: 0px 20px;
   border-right: 1px solid gray;
 `
