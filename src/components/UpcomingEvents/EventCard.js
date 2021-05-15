@@ -36,7 +36,6 @@ const CardContent = styled.section`
 `
 const EventMonth = styled.h5`
   text-transform: uppercase;
-  font-weight: 200;
   font-size: 0.9rem;
   margin: 0px;
 `
@@ -52,7 +51,6 @@ const CardTitle = styled.h4`
   margin: 0px;
 `
 const CardText = styled.p`
-  font-weight: 200;
   font-size: 0.8rem;
   height: 38.5px;
 `
