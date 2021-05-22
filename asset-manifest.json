@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.js": "/acme-corp/static/js/main.1ec059fa.chunk.js",
+    "main.js.map": "/acme-corp/static/js/main.1ec059fa.chunk.js.map",
+    "runtime-main.js": "/acme-corp/static/js/runtime-main.a423cccb.js",
+    "runtime-main.js.map": "/acme-corp/static/js/runtime-main.a423cccb.js.map",
+    "static/css/2.4ad9c5cb.chunk.css": "/acme-corp/static/css/2.4ad9c5cb.chunk.css",
+    "static/js/2.a5fb36eb.chunk.js": "/acme-corp/static/js/2.a5fb36eb.chunk.js",
+    "static/js/2.a5fb36eb.chunk.js.map": "/acme-corp/static/js/2.a5fb36eb.chunk.js.map",
+    "static/js/3.602329a6.chunk.js": "/acme-corp/static/js/3.602329a6.chunk.js",
+    "static/js/3.602329a6.chunk.js.map": "/acme-corp/static/js/3.602329a6.chunk.js.map",
+    "index.html": "/acme-corp/index.html",
+    "static/css/2.4ad9c5cb.chunk.css.map": "/acme-corp/static/css/2.4ad9c5cb.chunk.css.map",
+    "static/js/2.a5fb36eb.chunk.js.LICENSE.txt": "/acme-corp/static/js/2.a5fb36eb.chunk.js.LICENSE.txt",
+    "static/media/bgContact.39e49532.jpg": "/acme-corp/static/media/bgContact.39e49532.jpg",
+    "static/media/bgHero.86f692e0.jpg": "/acme-corp/static/media/bgHero.86f692e0.jpg",
+    "static/media/envelope.6a3f8be1.svg": "/acme-corp/static/media/envelope.6a3f8be1.svg",
+    "static/media/facebook.c5520bb7.svg": "/acme-corp/static/media/facebook.c5520bb7.svg",
+    "static/media/img1.661b603d.jpg": "/acme-corp/static/media/img1.661b603d.jpg",
+    "static/media/img2.05cdbc8d.jpg": "/acme-corp/static/media/img2.05cdbc8d.jpg",
+    "static/media/img3.38eb0cee.jpg": "/acme-corp/static/media/img3.38eb0cee.jpg",
+    "static/media/linkedin.ef0e792b.svg": "/acme-corp/static/media/linkedin.ef0e792b.svg",
+    "static/media/styles.css": "/acme-corp/static/media/revicons.e8746a62.woff",
+    "static/media/twitter.a431a521.svg": "/acme-corp/static/media/twitter.a431a521.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a423cccb.js",
+    "static/css/2.4ad9c5cb.chunk.css",
+    "static/js/2.a5fb36eb.chunk.js",
+    "static/js/main.1ec059fa.chunk.js"
+  ]
+}
